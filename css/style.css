@@ -1,0 +1,41 @@
+@font-face {
+    font-family: kaushan;
+    src: url(../fonts/Kaushan.otf) format("opentype");
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.bg-secondary2{
+    background: #E7E9EB;
+}
+.bg-dark2{
+    background: #212529;
+}
+/* Playground Section Start */
+.playground{
+    overflow: scroll;
+}
+.editior{
+    height: 550px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.editior p{
+    margin: 0px;
+}
+.result{
+    height: 550px;
+    font-family: 'kaushan', Courier, monospace, Courier, monospace;
+}
+/* Playground Section End */
+
+
+@media (max-width:767px) {
+    .w-md-100{
+        width: 100% !important;
+    }    
+}
