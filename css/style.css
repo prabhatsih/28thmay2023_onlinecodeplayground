@@ -31,6 +31,12 @@ body{
     height: 550px;
     font-family: 'kaushan', Courier, monospace, Courier, monospace;
 }
+.loader {
+    width: 6rem;
+    height: 6rem;
+    border-width: 0.4em;
+}
+
 /* Playground Section End */
 
 
